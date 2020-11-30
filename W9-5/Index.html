@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>W9-3</title>
+        <link rel="stylesheet" href="Styles.css" type="text/css">
+        
+    </head>
+    <body>
+        <div class="form">
+            <p class="text">Укажите номер страницы и лимит изображениq.<br>Значения в обоих полях должны быть <span class = "bold">в диапазоне от 1 до 10.</span></p>
+            <div class="input-block">
+                <label for="pageNumber" class="label">Номер страницы:</label>
+                <input type="text" name="pageNumber" class = "input input-pageNumber">
+            </div>
+            <div class="input-block">
+                <label for="limit" class="label">Лимит:</label>
+                <input type="text" name="limit" class = "input input-limit">
+            </div>
+            <button class="button">Запрос</button>
+
+        </div>
+        
+
+        <div class="result"></div>
+
+        <script src="Script.js"></script>
+    </body>
+
+
+</html>
